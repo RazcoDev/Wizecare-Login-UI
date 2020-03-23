@@ -1,0 +1,221 @@
+/* TODO : reduce flex classes*/
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+::placeholder {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(96, 96, 96);
+}
+
+input[type=text] {
+    width: 55%;
+    border: none;
+    height: 90px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    width: 36px;
+    height: 36px;
+    color:red;
+    vertical-align: middle;
+}
+
+.Sign-form label {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.96;
+    text-align: center;
+}
+
+.Sign-form {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Curve {
+    background-image: url("../images/login/curve.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.41;
+
+}
+
+.Agree-row {
+    margin-top: 6vh;
+}
+
+.Bg-container {
+    background-image: url("../images/login/bg-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Main-container {
+    font-family: 'SourceSansPro', 'Segoe UI', 'Roboto', 'sans-serif';
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgba(0, 0, 0, 0.33);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Form-section {
+    min-width: 50vw;
+
+
+}
+
+.Info-section {
+    width: 40vw;
+
+
+}
+
+.Register-comp {
+    margin-left: 4vw;
+    margin-top: 3vh;
+    display: flex;
+}
+
+.Form-comp {
+    margin-top: 10vh;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.Sign-button {
+    width: 280px;
+    height: 70px;
+    border-radius: 21px;
+    position: relative;
+    top: -6px;
+    border: 0;
+    transition: all 40ms linear;
+    margin-top: 5vh;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.Sign-button:active:focus,
+.Sign-button:focus:hover,
+.Sign-button:focus {
+    -moz-outline-style: none;
+    outline: medium none;
+}
+
+.Sign-button:active,
+.Sign-button.active {
+    top: 2px;
+}
+
+.Sign-button p {
+    color:white;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Sign-button img {
+    color:white;
+    transform: scaleX(-1);
+    height: 28px;
+    margin-left: 15px;
+}
+
+.Sign-button.btn-default {
+
+    color: #666666;
+    box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0, 0, 0, .2);
+    background-color: #f9f9f9;
+}
+
+.Sign-button.btn-primary {
+    box-shadow: 0 0 0 1px #2c9087 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #2c9087, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    background-color: #42bfb4;
+}
+
+.Sign-button.btn-primary:active,
+.Sign-button.btn-primary.active {
+    box-shadow: 0 0 0 1px #2c9087 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+    background-color: #2c9087;
+}
+
+.Logo {
+    height: 65px;
+    margin-bottom: 3vh;
+}
+.Arrow-icon {
+    height: 54px;
+    padding-right: 1vw;
+}
+
+.Register-text {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin: 0 0 0 0;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.Try-us-container p{
+    margin: 0;
+    padding-top: 10vh;
+    padding-right: 5vw;
+    padding-left: 10vw;
+    font-size: 40px;
+    line-height: 1.25;
+    text-align: center;
+
+}
+
+.blocks-container {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.Block {
+    width: 10vw;
+    flex-direction: column;
+    margin-left: 4vw;
+    align-items: center;
+
+}
+
+.Blocks-section{
+    margin-top: 4vh;
+}
+.Block p{
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.25;
+    text-align: center;
+}
+.Flex-comp {
+    display: flex;
+}
+
